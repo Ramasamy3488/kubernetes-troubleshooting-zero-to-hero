@@ -21,5 +21,5 @@ kubectl config view
 
 kubectl config view | grep kind
 
-kubectl config use-context rajan
+kubectl config use-context kind-rajan
 
