@@ -15,6 +15,8 @@ kind get clusters
 
 kind delete cluster --name=raman
 
+kubectl get nodes
+
 kubectl config view 
 
 kubectl config view | grep kind
