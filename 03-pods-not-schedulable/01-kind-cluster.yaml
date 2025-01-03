@@ -5,3 +5,17 @@ nodes:
 - role: worker
 - role: worker
 - role: worker
+
+
+-----------------
+
+kind create cluster --name rajan --config=kindcluster.yaml
+
+kind delete cluster --name=raman
+
+kubectl config view 
+
+kubectl config view | grep kind
+
+kubectl config use-context rajan
+
