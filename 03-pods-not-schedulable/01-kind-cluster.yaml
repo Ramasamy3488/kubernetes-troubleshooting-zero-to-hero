@@ -11,6 +11,8 @@ nodes:
 
 kind create cluster --name rajan --config=kindcluster.yaml
 
+kind get clusters
+
 kind delete cluster --name=raman
 
 kubectl config view 
